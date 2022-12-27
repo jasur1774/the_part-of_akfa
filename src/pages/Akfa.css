@@ -1,0 +1,246 @@
+.akfa {
+    padding: 100px 100px;
+}
+
+h2 {
+    font-family: 'Questrial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 98.02%;
+    color: #000000;
+}
+
+.names {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 131.02%;
+    color: #000000;
+    opacity: 0.6;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 98.02%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 56px;
+
+}
+
+button {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 98.02%;
+    text-align: center;
+    color: #727272;
+}
+
+.akfachoice {
+    display: flex;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.calc-text {
+    font-family: [font];
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 98.02%;
+    color: #000000;
+}
+
+.calc-btn {
+    padding: 0 72px;
+    border: none;
+
+}
+
+.calc-btn1 {
+    border: none;
+    padding: 0 53px;
+}
+
+.window-type-btn {
+    border: none;
+    padding: 14px 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.openingtype-title {
+    display: flex;
+    align-items: baseline;
+
+}
+
+.hometype-check {
+    display: flex;
+    grid-gap: 32px;
+}
+
+.icon__quest {
+    margin-left: 8px;
+    display: block;
+}
+
+.romtypes {
+    display: flex;
+    grid-gap: 33px;
+}
+
+.first_type path {
+    stroke: #A5A5A5;
+}
+
+input[type="radio"]:checked+label>.first_type path {
+    stroke: #727272;
+}
+
+.profileboxes {
+    display: flex;
+    grid-gap: 32px;
+}
+
+.profilebox1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.profilebox2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.additional {
+    display: flex;
+    flex-direction: column;
+}
+
+.lamination {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-and-lam {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 73px;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 16px;
+    margin-right: 16px;
+    width: 30px;
+}
+
+
+input[type="checkbox"]:enabled {
+    accent-color: #727272;
+}
+
+.windowtypes {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 311px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #A5A5A5;
+    border-radius: 6px;
+    height: 4px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -5px;
+    background-color: #727272;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+input[type="range"].wide {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 320px;
+    bottom: 180px;
+
+}
+
+input[type="range"].height {
+    margin-top: 28px;
+    margin-left: 10px;
+
+}
+
+.range1 {
+    display: flex;
+}
+
+.akfa-right {
+    padding-top: 12px;
+}
+
+.size-btns {
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    width: 64px;
+    height: 34px;
+    border: 1px solid #A5A5A5;
+    border-radius: 4px;
+    margin-left: 25px;
+}
+
+.totalprice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.totalprice-tit {
+    display: flex;
+    align-items: center;
+}
+
+h4 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 98.02%;
+    /* identical to box height, or 20px */
+
+    text-align: right;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
